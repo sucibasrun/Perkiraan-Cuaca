@@ -1,4 +1,4 @@
-# 🌦️ WeatherNow - Aplikasi Prakiraan Cuaca
+# 🌦️ WeatherNow - Aplikasi Perkiraan Cuaca
 
 
 ## 📝 Deskripsi
