@@ -27,14 +27,7 @@ WeatherNow adalah aplikasi prakiraan cuaca real-time yang menyajikan informasi c
 ## 💻 Teknologi
 ![Tech Stack](https://skillicons.dev/icons?i=react,js,html,css,nodejs,git)
 
-- Frontend: React.js + Vite
-- Styling: Tailwind CSS
-- State Management: Context API
-- API: OpenWeatherMap
-- Build Tool: Vite
-- Deployment: Netlify
-
 
 
 Dibuat dengan ❤️ oleh [WULAN] 
->>>>>>> 587b00301a2db298357c7699c78e9032b63e63f0
+
