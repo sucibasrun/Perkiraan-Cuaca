@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 # 🌦️ WeatherNow - Aplikasi Perkiraan Cuaca
 
 
