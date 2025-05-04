@@ -55,15 +55,6 @@ body {
     font-weight: 700;
 }
 
-.current-info .others{
-    display: flex;
-    flex-direction: column;
-    background: rgba(23,24,27, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px 0;
-    border: 1px solid #eee;
-}
 
 .current-info .others .weather-item{
     display: flex;
@@ -182,4 +173,12 @@ body {
         font-size: 14px;
     }
 
+}
+
+@media only screen and (max-width: 1400px){
+    .future-forecast{
+        justify-content: start;
+        align-items: none;
+        overflow-x: scroll;
+    }
 }
