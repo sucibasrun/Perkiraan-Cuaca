@@ -7,10 +7,10 @@ const weatherForecastE1 = document.getElementById('weather-forecast');
 const current = document.getElementById('current-temp');
 
 
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu']
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-const API_KEY ='26ad57d95adf2a5715f463b8cdd9ab66'
+const API_KEY ='106a1e0d5381403f97f130230252904'
 
 setInterval(() => {
     const time = new Date();
@@ -28,21 +28,3 @@ setInterval(() => {
 
 }, 1000);
 
-getWeatherData()
-function getWeatherData () {
-    navigator.geolocation.getCurrentPosition((success) => {
-        
-        let {latitude, longitude}= success.coords;
-
-        fetch(`https://api.openweathermap.org/data/3.0/onecall?lat={lat}=${latitude}&lon=${longitude}&exclude=hourly,minute1y&units{part}&appid=${API_KEY}`).then(res => res.json()).then(data => {}
-
-        )
-    console.log(data);
-    showWeatherData(data);
-    })
-}
-
-function showWeatherData (data){
-    let {humidity, pressure, sunrise, sunset, wind_speed} = data.current;
-
-}
